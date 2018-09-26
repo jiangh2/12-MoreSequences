@@ -15,9 +15,9 @@ import rosegraphics as rg
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    #run_test_sum_radii()
-    #run_test_count_last_n_odds()
-    #run_test_index_of_first_negative()
+    run_test_sum_radii()
+    run_test_count_last_n_odds()
+    run_test_index_of_first_negative()
     run_test_contains_an_a()
 
 
@@ -160,8 +160,6 @@ def count_last_n_odds(integers, n):
         if integers[k] % 2 != 0:
             count = count + 1
     return count
-
-
     # ------------------------------------------------------------------
     # DONE: 3. Implement and test this function.
     #     The testing code is already written for you (above).
@@ -244,8 +242,6 @@ def index_of_first_negative(numbers):
         else:
             pass
     return -1
-
-
     # ------------------------------------------------------------------
     # DONE: 4. Implement and test this function.
     #     The testing code is already written for you (above).
